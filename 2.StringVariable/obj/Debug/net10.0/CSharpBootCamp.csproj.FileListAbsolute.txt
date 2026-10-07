@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/2.StringVariable/bin/Debug/net10.0/CSharpBootCamp
+/Users/admin/CSharpBootCamp/2.StringVariable/bin/Debug/net10.0/CSharpBootCamp.deps.json
+/Users/admin/CSharpBootCamp/2.StringVariable/bin/Debug/net10.0/CSharpBootCamp.runtimeconfig.json
+/Users/admin/CSharpBootCamp/2.StringVariable/bin/Debug/net10.0/CSharpBootCamp.dll
+/Users/admin/CSharpBootCamp/2.StringVariable/bin/Debug/net10.0/CSharpBootCamp.pdb
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.dll
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/refint/CSharpBootCamp.dll
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.pdb
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/CSharpBootCamp.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/2.StringVariable/obj/Debug/net10.0/ref/CSharpBootCamp.dll

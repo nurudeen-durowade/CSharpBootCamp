@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/1.NumberSample/bin/Debug/net10.0/1.NumberSample
+/Users/admin/CSharpBootCamp/1.NumberSample/bin/Debug/net10.0/1.NumberSample.deps.json
+/Users/admin/CSharpBootCamp/1.NumberSample/bin/Debug/net10.0/1.NumberSample.runtimeconfig.json
+/Users/admin/CSharpBootCamp/1.NumberSample/bin/Debug/net10.0/1.NumberSample.dll
+/Users/admin/CSharpBootCamp/1.NumberSample/bin/Debug/net10.0/1.NumberSample.pdb
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.dll
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/refint/1.NumberSample.dll
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.pdb
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/1.NumberSample.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/1.NumberSample/obj/Debug/net10.0/ref/1.NumberSample.dll

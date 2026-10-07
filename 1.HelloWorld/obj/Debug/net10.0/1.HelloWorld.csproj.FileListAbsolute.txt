@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/1.HelloWorld/bin/Debug/net10.0/1.HelloWorld
+/Users/admin/CSharpBootCamp/1.HelloWorld/bin/Debug/net10.0/1.HelloWorld.deps.json
+/Users/admin/CSharpBootCamp/1.HelloWorld/bin/Debug/net10.0/1.HelloWorld.runtimeconfig.json
+/Users/admin/CSharpBootCamp/1.HelloWorld/bin/Debug/net10.0/1.HelloWorld.dll
+/Users/admin/CSharpBootCamp/1.HelloWorld/bin/Debug/net10.0/1.HelloWorld.pdb
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.dll
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/refint/1.HelloWorld.dll
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.pdb
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/1.HelloWorld.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/1.HelloWorld/obj/Debug/net10.0/ref/1.HelloWorld.dll

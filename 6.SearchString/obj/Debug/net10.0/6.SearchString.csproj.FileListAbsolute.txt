@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/6.SearchString/bin/Debug/net10.0/6.SearchString
+/Users/admin/CSharpBootCamp/6.SearchString/bin/Debug/net10.0/6.SearchString.deps.json
+/Users/admin/CSharpBootCamp/6.SearchString/bin/Debug/net10.0/6.SearchString.runtimeconfig.json
+/Users/admin/CSharpBootCamp/6.SearchString/bin/Debug/net10.0/6.SearchString.dll
+/Users/admin/CSharpBootCamp/6.SearchString/bin/Debug/net10.0/6.SearchString.pdb
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.dll
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/refint/6.SearchString.dll
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.pdb
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/6.SearchString.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/6.SearchString/obj/Debug/net10.0/ref/6.SearchString.dll

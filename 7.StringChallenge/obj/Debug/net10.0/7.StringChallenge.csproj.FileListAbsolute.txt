@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/7.StringChallenge/bin/Debug/net10.0/7.StringChallenge
+/Users/admin/CSharpBootCamp/7.StringChallenge/bin/Debug/net10.0/7.StringChallenge.deps.json
+/Users/admin/CSharpBootCamp/7.StringChallenge/bin/Debug/net10.0/7.StringChallenge.runtimeconfig.json
+/Users/admin/CSharpBootCamp/7.StringChallenge/bin/Debug/net10.0/7.StringChallenge.dll
+/Users/admin/CSharpBootCamp/7.StringChallenge/bin/Debug/net10.0/7.StringChallenge.pdb
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.dll
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/refint/7.StringChallenge.dll
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.pdb
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/7.StringChallenge.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/7.StringChallenge/obj/Debug/net10.0/ref/7.StringChallenge.dll

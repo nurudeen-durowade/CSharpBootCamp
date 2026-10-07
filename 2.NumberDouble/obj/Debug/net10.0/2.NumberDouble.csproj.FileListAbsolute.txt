@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/2.NumberDouble/bin/Debug/net10.0/2.NumberDouble
+/Users/admin/CSharpBootCamp/2.NumberDouble/bin/Debug/net10.0/2.NumberDouble.deps.json
+/Users/admin/CSharpBootCamp/2.NumberDouble/bin/Debug/net10.0/2.NumberDouble.runtimeconfig.json
+/Users/admin/CSharpBootCamp/2.NumberDouble/bin/Debug/net10.0/2.NumberDouble.dll
+/Users/admin/CSharpBootCamp/2.NumberDouble/bin/Debug/net10.0/2.NumberDouble.pdb
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.dll
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/refint/2.NumberDouble.dll
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.pdb
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/2.NumberDouble.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/2.NumberDouble/obj/Debug/net10.0/ref/2.NumberDouble.dll

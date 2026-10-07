@@ -1,0 +1,14 @@
+/Users/admin/CSharpBootCamp/4.NumberChallenge/bin/Debug/net10.0/4.NumberChallenge
+/Users/admin/CSharpBootCamp/4.NumberChallenge/bin/Debug/net10.0/4.NumberChallenge.deps.json
+/Users/admin/CSharpBootCamp/4.NumberChallenge/bin/Debug/net10.0/4.NumberChallenge.runtimeconfig.json
+/Users/admin/CSharpBootCamp/4.NumberChallenge/bin/Debug/net10.0/4.NumberChallenge.dll
+/Users/admin/CSharpBootCamp/4.NumberChallenge/bin/Debug/net10.0/4.NumberChallenge.pdb
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.dll
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/refint/4.NumberChallenge.dll
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.pdb
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/4.NumberChallenge.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/4.NumberChallenge/obj/Debug/net10.0/ref/4.NumberChallenge.dll
