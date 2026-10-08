@@ -66,6 +66,7 @@ class Program
         int[][] jaggedArray = [[1, 2, 3], [4, 5], [6, 7, 8, 9]];
 
     Console.WriteLine($"jaggedArray[2][3]: {jaggedArray[2][3]}");
+    Console.WriteLine("jaggedArray[1][1] is: {0}", jaggedArray[1][1]);
     
     //Assign 77 to the last element of the second array in jaggedArray
 
