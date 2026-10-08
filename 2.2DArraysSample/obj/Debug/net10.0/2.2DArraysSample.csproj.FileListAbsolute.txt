@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/2.2DArraysSample/bin/Debug/net10.0/2.2DArraysSample
+/Users/admin/CSharpBootCamp/2.2DArraysSample/bin/Debug/net10.0/2.2DArraysSample.deps.json
+/Users/admin/CSharpBootCamp/2.2DArraysSample/bin/Debug/net10.0/2.2DArraysSample.runtimeconfig.json
+/Users/admin/CSharpBootCamp/2.2DArraysSample/bin/Debug/net10.0/2.2DArraysSample.dll
+/Users/admin/CSharpBootCamp/2.2DArraysSample/bin/Debug/net10.0/2.2DArraysSample.pdb
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.sourcelink.json
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.dll
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/refint/2.2DArraysSample.dll
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.pdb
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/2.2DArraysSample.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/2.2DArraysSample/obj/Debug/net10.0/ref/2.2DArraysSample.dll
