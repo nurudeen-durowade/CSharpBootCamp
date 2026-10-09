@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/ArrayChallenge/bin/Debug/net10.0/ArrayChallenge
+/Users/admin/CSharpBootCamp/ArrayChallenge/bin/Debug/net10.0/ArrayChallenge.deps.json
+/Users/admin/CSharpBootCamp/ArrayChallenge/bin/Debug/net10.0/ArrayChallenge.runtimeconfig.json
+/Users/admin/CSharpBootCamp/ArrayChallenge/bin/Debug/net10.0/ArrayChallenge.dll
+/Users/admin/CSharpBootCamp/ArrayChallenge/bin/Debug/net10.0/ArrayChallenge.pdb
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.sourcelink.json
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.dll
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/refint/ArrayChallenge.dll
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.pdb
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ArrayChallenge.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/ArrayChallenge/obj/Debug/net10.0/ref/ArrayChallenge.dll
