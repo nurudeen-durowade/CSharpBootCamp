@@ -42,7 +42,7 @@ class Program
     Console.WriteLine($"{productLists[6]}: ${productPrices[6]:F1}");
 
 
-    double[] ShoppingCart = new double[] { productPrices[0], productPrices[2], productPrices[4], productPrices[6] };
+    double[] ShoppingCart = [productPrices[0], productPrices[2], productPrices[4], productPrices[6]];
 
     Console.WriteLine("\nShopping Cart:");
 

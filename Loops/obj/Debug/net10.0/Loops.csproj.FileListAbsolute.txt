@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/Loops/bin/Debug/net10.0/Loops
+/Users/admin/CSharpBootCamp/Loops/bin/Debug/net10.0/Loops.deps.json
+/Users/admin/CSharpBootCamp/Loops/bin/Debug/net10.0/Loops.runtimeconfig.json
+/Users/admin/CSharpBootCamp/Loops/bin/Debug/net10.0/Loops.dll
+/Users/admin/CSharpBootCamp/Loops/bin/Debug/net10.0/Loops.pdb
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.sourcelink.json
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.dll
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/refint/Loops.dll
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.pdb
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/Loops.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/Loops/obj/Debug/net10.0/ref/Loops.dll

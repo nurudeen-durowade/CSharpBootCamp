@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/bin/Debug/net10.0/1_ConditionalLogic
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/bin/Debug/net10.0/1_ConditionalLogic.deps.json
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/bin/Debug/net10.0/1_ConditionalLogic.runtimeconfig.json
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/bin/Debug/net10.0/1_ConditionalLogic.dll
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/bin/Debug/net10.0/1_ConditionalLogic.pdb
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.sourcelink.json
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.dll
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/refint/1_ConditionalLogic.dll
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.pdb
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/1_ConditionalLogic.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/1_ConditionalLogic/obj/Debug/net10.0/ref/1_ConditionalLogic.dll

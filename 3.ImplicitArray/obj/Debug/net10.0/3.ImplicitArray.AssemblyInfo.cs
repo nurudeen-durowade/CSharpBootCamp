@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3.ImplicitArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ba9822239064558ebc5cb4c6ef7ddcf99aaf57c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e585048598ddd2fe1e58c05de077907bb1f5a71")]
 [assembly: System.Reflection.AssemblyProductAttribute("3.ImplicitArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3.ImplicitArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

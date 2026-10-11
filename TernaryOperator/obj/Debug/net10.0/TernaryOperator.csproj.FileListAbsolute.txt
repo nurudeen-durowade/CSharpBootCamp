@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/TernaryOperator/bin/Debug/net10.0/TernaryOperator
+/Users/admin/CSharpBootCamp/TernaryOperator/bin/Debug/net10.0/TernaryOperator.deps.json
+/Users/admin/CSharpBootCamp/TernaryOperator/bin/Debug/net10.0/TernaryOperator.runtimeconfig.json
+/Users/admin/CSharpBootCamp/TernaryOperator/bin/Debug/net10.0/TernaryOperator.dll
+/Users/admin/CSharpBootCamp/TernaryOperator/bin/Debug/net10.0/TernaryOperator.pdb
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.sourcelink.json
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.dll
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/refint/TernaryOperator.dll
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.pdb
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/TernaryOperator.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/TernaryOperator/obj/Debug/net10.0/ref/TernaryOperator.dll

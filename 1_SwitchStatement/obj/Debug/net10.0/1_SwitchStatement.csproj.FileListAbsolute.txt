@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/1_SwitchStatement/bin/Debug/net10.0/1_SwitchStatement
+/Users/admin/CSharpBootCamp/1_SwitchStatement/bin/Debug/net10.0/1_SwitchStatement.deps.json
+/Users/admin/CSharpBootCamp/1_SwitchStatement/bin/Debug/net10.0/1_SwitchStatement.runtimeconfig.json
+/Users/admin/CSharpBootCamp/1_SwitchStatement/bin/Debug/net10.0/1_SwitchStatement.dll
+/Users/admin/CSharpBootCamp/1_SwitchStatement/bin/Debug/net10.0/1_SwitchStatement.pdb
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.sourcelink.json
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.dll
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/refint/1_SwitchStatement.dll
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.pdb
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/1_SwitchStatement.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/1_SwitchStatement/obj/Debug/net10.0/ref/1_SwitchStatement.dll
