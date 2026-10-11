@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/LoopChallenge/bin/Debug/net10.0/LoopChallenge
+/Users/admin/CSharpBootCamp/LoopChallenge/bin/Debug/net10.0/LoopChallenge.deps.json
+/Users/admin/CSharpBootCamp/LoopChallenge/bin/Debug/net10.0/LoopChallenge.runtimeconfig.json
+/Users/admin/CSharpBootCamp/LoopChallenge/bin/Debug/net10.0/LoopChallenge.dll
+/Users/admin/CSharpBootCamp/LoopChallenge/bin/Debug/net10.0/LoopChallenge.pdb
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.sourcelink.json
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.dll
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/refint/LoopChallenge.dll
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.pdb
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/LoopChallenge.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/LoopChallenge/obj/Debug/net10.0/ref/LoopChallenge.dll

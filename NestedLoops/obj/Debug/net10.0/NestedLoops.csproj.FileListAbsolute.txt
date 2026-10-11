@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/NestedLoops/bin/Debug/net10.0/NestedLoops
+/Users/admin/CSharpBootCamp/NestedLoops/bin/Debug/net10.0/NestedLoops.deps.json
+/Users/admin/CSharpBootCamp/NestedLoops/bin/Debug/net10.0/NestedLoops.runtimeconfig.json
+/Users/admin/CSharpBootCamp/NestedLoops/bin/Debug/net10.0/NestedLoops.dll
+/Users/admin/CSharpBootCamp/NestedLoops/bin/Debug/net10.0/NestedLoops.pdb
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.sourcelink.json
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.dll
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/refint/NestedLoops.dll
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.pdb
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/NestedLoops.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/NestedLoops/obj/Debug/net10.0/ref/NestedLoops.dll
