@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/Methods/bin/Debug/net10.0/Methods
+/Users/admin/CSharpBootCamp/Methods/bin/Debug/net10.0/Methods.deps.json
+/Users/admin/CSharpBootCamp/Methods/bin/Debug/net10.0/Methods.runtimeconfig.json
+/Users/admin/CSharpBootCamp/Methods/bin/Debug/net10.0/Methods.dll
+/Users/admin/CSharpBootCamp/Methods/bin/Debug/net10.0/Methods.pdb
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.sourcelink.json
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.dll
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/refint/Methods.dll
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.pdb
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/Methods.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/Methods/obj/Debug/net10.0/ref/Methods.dll
