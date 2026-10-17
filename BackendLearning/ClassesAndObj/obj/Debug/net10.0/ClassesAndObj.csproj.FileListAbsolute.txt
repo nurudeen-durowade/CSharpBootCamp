@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/bin/Debug/net10.0/ClassesAndObj
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/bin/Debug/net10.0/ClassesAndObj.deps.json
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/bin/Debug/net10.0/ClassesAndObj.runtimeconfig.json
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/bin/Debug/net10.0/ClassesAndObj.dll
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/bin/Debug/net10.0/ClassesAndObj.pdb
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.sourcelink.json
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.dll
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/refint/ClassesAndObj.dll
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.pdb
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ClassesAndObj.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/Debug/net10.0/ref/ClassesAndObj.dll

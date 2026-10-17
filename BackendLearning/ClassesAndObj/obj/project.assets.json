@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/CSharpBootCamp/ClassesAndObj/ClassesAndObj.csproj",
+      "projectUniqueName": "/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/ClassesAndObj.csproj",
       "projectName": "ClassesAndObj",
-      "projectPath": "/Users/admin/CSharpBootCamp/ClassesAndObj/ClassesAndObj.csproj",
+      "projectPath": "/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/ClassesAndObj.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/CSharpBootCamp/ClassesAndObj/obj/",
+      "outputPath": "/Users/admin/CSharpBootCamp/BackendLearning/ClassesAndObj/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/admin/.nuget/NuGet/NuGet.Config"
