@@ -9,6 +9,16 @@ class Program
 
         GreetCustomer("Jonathan");
 
+        GreetMyCustomer();
+        GreetMyCustomer("Ada");
+
+        SendTransfer("1234567890");
+        SendTransfer("1234567890", 500m);
+
+        CreateTransfer(sourceAccount: "1234567890", destinationAccount: "0987654321", amount: 500m);
+
+
+
         decimal total = CalculateTotaldebit(amount:1000m, charges:30m);
 
         Console.WriteLine(total);
@@ -53,5 +63,25 @@ class Program
         return balance >= amount;
     }
 
+    //optional parameter example
+
+    static void GreetMyCustomer(string name = "Customer")
+    {
+        Console.WriteLine($"Welcome {name}, how are you doing today");
+    }
+
+static void SendTransfer(string accountnumber, decimal amount = 100m)
+    {
+        Console.WriteLine($"Account:{accountnumber}) Amount:{amount}");
+
+
+    }
+
+    // Named Arguments Example
+
+static void CreateTransfer(string sourceAccount, string destinationAccount, decimal amount)
+{
+    Console.WriteLine($"Transfer from {sourceAccount} to {destinationAccount} of amount {amount}");
+}
     
 }
