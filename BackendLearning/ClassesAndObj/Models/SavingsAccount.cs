@@ -2,14 +2,9 @@ using System;
 namespace ClassesAndObj.Models;
 
 //One important detail: a class can inherit from only one class directly, but it can implement multiple interfaces.
-public class SavingsAccount : BankAccount, IMonthlyFeeCalculator
+public class SavingsAccount(string accountHolder, decimal initialBalance) : BankAccount(accountHolder, initialBalance), IMonthlyFeeCalculator
 {
-    public SavingsAccount(string accountHolder, decimal initialBalance):
-    base(accountHolder, initialBalance)
-    {
-
-    }
-public void ApplyInterest(decimal interestRate)
+    public void ApplyInterest(decimal interestRate)
     {
         if(interestRate <= 0)
         {

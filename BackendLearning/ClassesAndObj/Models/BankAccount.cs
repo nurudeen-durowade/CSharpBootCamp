@@ -8,7 +8,9 @@ public abstract class BankAccount
 
     public decimal Balance { get; protected set; }
 
-    public BankAccount(string accountHolder, decimal initialBalance)
+    public TransactionHistory History { get; } = new TransactionHistory();
+
+    protected BankAccount(string accountHolder, decimal initialBalance)
     {
         if (initialBalance < 0)
         {
@@ -30,6 +32,7 @@ public abstract class BankAccount
         }
 
         Balance += amount;
+        History.AddTransaction(new Transaction("Deposit", amount));
     }
 
     public void DisplayAccountInfo()

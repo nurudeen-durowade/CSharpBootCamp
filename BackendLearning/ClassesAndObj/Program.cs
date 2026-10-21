@@ -1,6 +1,7 @@
 ﻿
 using ClassesAndObj.Models;
 
+// Cannot instantiate an abstract class directly.
 //BankAccount account1 = new("Amina", 5000m);
 //BankAccount account2 = new("David", 12000m);
 
@@ -11,13 +12,24 @@ IMonthlyFeeCalculator savingsFee = new SavingsAccount("Jahn", 2500m);
 
 IMonthlyFeeCalculator currentFee = new CurrentAccount("Sean", 4000m);
 
-Console.WriteLine($"Jahn's Monthly Fee: {savingsFee.CalculateMonthlyFee()}");
-Console.WriteLine($"Sean's Monthly Fee: {currentFee.CalculateMonthlyFee()}");
+// Console.WriteLine($"Jahn's Monthly Fee: {savingsFee.CalculateMonthlyFee()}");
+// Console.WriteLine($"Sean's Monthly Fee: {currentFee.CalculateMonthlyFee()}");
+
+// Since PrintMonthlyFee is now static, we don't need to create an instance of FeePrinter.
+FeePrinter.PrintMonthlyFee(savingsFee);
+FeePrinter.PrintMonthlyFee(currentFee);
 
 // BankAccount is the declared variable type, but the actual object is of type CurrentAccount.
 BankAccount currentAccount1 = new CurrentAccount("Michael", 2000m);
 
 savingsAccount1.Deposit(500m);
+
+
+Console.WriteLine($"Gracey's Transaction History:");
+foreach (var transaction in savingsAccount1.History.GetTransactions())
+{
+    Console.WriteLine($"{transaction.TransactionDate}: {transaction.Description} - {transaction.Amount}");
+}
 //savingsAccount1.ApplyInterest(0.08m);
 
 savingsAccount1.DisplayAccountInfo();
