@@ -1,0 +1,15 @@
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/MiniBankingPractice
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/MiniBankingPractice.deps.json
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/MiniBankingPractice.runtimeconfig.json
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/MiniBankingPractice.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/MiniBankingPractice.pdb
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.AssemblyInfoInputs.cache
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.AssemblyInfo.cs
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.csproj.CoreCompileInputs.cache
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.sourcelink.json
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/refint/MiniBankingPractice.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.pdb
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.genruntimeconfig.cache
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/ref/MiniBankingPractice.dll
