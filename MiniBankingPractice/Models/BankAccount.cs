@@ -3,16 +3,20 @@ namespace MiniBankingPractice.Models
     
     public class BankAccount
     {
-        public string AccountHolder {get; set;}
+        public string AccountHolder {get; private set;}
+
+        //event
+        public event EventHandler<DepositEventArgs>? OnDeposit;
 
         public decimal Balance {get; private set;}
 
+        public string? AccountNickname { get; set; }
         public TransactionHistory History {get;} = new TransactionHistory();
 
         public BankAccount(string accountHolder, decimal initialBalance)
         {
             if (string.IsNullOrWhiteSpace(accountHolder))
-                throw new ArgumentException(nameof(accountHolder),"Account holder is required");
+                throw new ArgumentException("Account holder is required", nameof(accountHolder));
             if (initialBalance < 0)
                 throw new ArgumentOutOfRangeException(nameof(initialBalance),"Initial balance must be non-negative");
             AccountHolder = accountHolder;
@@ -20,6 +24,12 @@ namespace MiniBankingPractice.Models
             Balance = initialBalance;
         }
 
+        public string GetAccountDisplayName()
+        {
+           if(!string.IsNullOrWhiteSpace(AccountNickname))
+               return AccountNickname.Trim();
+           return AccountHolder.Trim();
+        }
 
         public void Deposit(decimal amount)
         {
@@ -29,7 +39,9 @@ namespace MiniBankingPractice.Models
             }
 
             Balance += amount;
-            History.AddTransaction(new Transaction("Deposit",amount));
+            History.AddTransaction(new Transaction(TransactionType.Deposit,amount));
+
+            OnDeposit?.Invoke(this, new DepositEventArgs(amount));
         }
 
         public void Withdraw(decimal amount)
@@ -40,10 +52,10 @@ namespace MiniBankingPractice.Models
             }
             if (amount > Balance)
             {
-                throw new ArgumentOutOfRangeException(nameof(amount),"Insufficient funds for withdrawal");
+                throw new InsufficientFundsException(amount, Balance);
             }
             Balance -= amount;
-            History.AddTransaction(new Transaction("Withdrawal", amount));
+            History.AddTransaction(new Transaction( TransactionType.Withdrawal, amount));
         }
     }
 }

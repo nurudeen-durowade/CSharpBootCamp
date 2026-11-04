@@ -2,10 +2,154 @@
 using MiniBankingPractice.Models;
 
 //BankAccount Object Creation
-BankAccount account = new BankAccount("Gracey", 10000m);
+BankAccount account = new("Gracey", 100000m)
+{
+    AccountNickname = "Emergency Fund"
+};
+
+Console.WriteLine($"Account Display Name: {account.GetAccountDisplayName()}");
+Console.WriteLine($"Opening Balance {account.Balance:N2}");
+Console.WriteLine($"\nProcessing withdrawals...\n");
+
+// try
+// {
+//     account.Withdraw(30000m);
+//     account.Withdraw(90000m);
+
+//     account.History.GetTransactions();
+//     Console.WriteLine("Withdraw successful!");
+// }
+// catch (ArgumentOutOfRangeException ex)
+// {
+
+//     Console.WriteLine($"Withdrawal failed {ex.Message}");
+// }
+// finally
+// {
+//     IReadOnlyList<Transaction> transactionsCompleted = account.History.GetTransactions();
+//     foreach (var transaction in transactionsCompleted)
+//     {
+//           Console.WriteLine($"Transaction: {transaction.Amount} on {transaction.CreatedAt}");
+//     }
+//     Console.WriteLine($"Withdrawal processing finished, total Transactions {transactionsCompleted.Count}");
+//     Console.WriteLine($"Current Balance {account.Balance}");
+
+// }
+
+
+
+decimal[] withdrawalRequests =
+[
+    30000m,
+    90000m,
+    150000m,
+    5000m,
+    -2000m
+];
+
+
+
+
+
+
+// foreach (decimal amount in withdrawalRequests)
+// {
+//     try
+//     {
+//         account.Withdraw(amount);
+//         Console.WriteLine($"Withdrawal of {amount:N2} successful!");
+//         successfulWithdrawals++;
+//         Console.WriteLine($"Successful Withdrawals: {successfulWithdrawals}");
+
+//     }
+//     catch (ArgumentOutOfRangeException ex)
+//     {
+//         Console.WriteLine($"Withdrawal of {amount:N2} failed: {ex.Message}");
+//         failedWithdrawals++;
+//         Console.WriteLine($"Failed Withdrawals: {failedWithdrawals}");
+//     }
+//     finally
+//     {
+//         Console.WriteLine($"Successful Withdrawals: {successfulWithdrawals}");
+//         Console.WriteLine($"Failed Withdrawals: {failedWithdrawals}");
+//     }
+// }
+
+// IReadOnlyList<Transaction> transactionsCompleted = account.History.GetTransactions();
+
+// Console.WriteLine("\n======== TRANSACTION SUMMARY ===========");
+
+// Console.WriteLine($"Successful Withdrawals: {successfulWithdrawals}");
+// Console.WriteLine($"Failed Withdrawals: {failedWithdrawals}");
+// Console.WriteLine($"Total Transactions: {transactionsCompleted.Count}");
+// Console.WriteLine($"Final Balance: {account.Balance:N2}");
+
+
+
+
+static void ProcessWithdrawal(BankAccount account, decimal[] withdrawalRequests)
+{
+    int successfulWithdrawals = 0;
+
+    int failedWithdrawals = 0;
+    foreach (var amount in withdrawalRequests)
+    {
+        try
+        {
+
+            account.Withdraw(amount);
+            Console.WriteLine($"Withdrawal of {amount:N2} successful!");
+            successfulWithdrawals++;
+            Console.WriteLine($"Successful Withdrawals: {successfulWithdrawals}");
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine($"Invalid amount: {ex.Message}");
+            failedWithdrawals++;
+            Console.WriteLine($"Failed Withdrawals: {failedWithdrawals}");
+            
+        }
+        catch (InsufficientFundsException ex)
+        {
+            Console.WriteLine($"Insufficient funds: Requested {ex.RequestedAmount:N2}, Available {ex.AvailableBalance:N2}, Shortfall {ex.Shortfall:N2}");
+            failedWithdrawals++;
+            Console.WriteLine($"Failed Withdrawals: {failedWithdrawals}");
+            
+        }
+
+    }
+
+    Console.WriteLine("\n--- Withdrawal Summary ---");
+    Console.WriteLine($"Successful: {successfulWithdrawals}");
+    Console.WriteLine($"Failed: {failedWithdrawals}");
+    Console.WriteLine($"Final Balance: {account.Balance:N2}");
+
+}
+
+
+    ProcessWithdrawal(account, withdrawalRequests);
+
+
 
 
 BankAccount lona = new BankAccount("Amina", 20000m);
+
+lona.OnDeposit += SendNotification;
+lona.OnDeposit += RecordAudit;
+
+
+
+static void SendNotification(object? sender, DepositEventArgs e)
+{
+    Console.WriteLine($"Customer deposited {e.Amount}");
+
+    Console.WriteLine($"Event raised by: {sender?.GetType().Name}");
+}
+
+static void RecordAudit(object? sender, DepositEventArgs e)
+{
+    Console.WriteLine($"Audit recorded: {e.Amount} ");
+}
 
 List<BankAccount> customersAccount =
 [
@@ -16,7 +160,7 @@ List<BankAccount> customersAccount =
 ];
 
 IEnumerable<string> wealthyAccounts = customersAccount
-                     .Where(account => account.Balance > 10000m )
+                     .Where(account => account.Balance > 10000m)
                      .OrderByDescending(account => account.Balance)
                      .Select(account => account.AccountHolder);
 
@@ -28,8 +172,11 @@ static decimal ProcessAmount(decimal amount,
     return operation(amount);
 }
 
-decimal deposit = ProcessAmount(3000, amount => amount * 1000);
-    
+decimal deposit = ProcessAmount(3000, amount => amount + 3000);
+
+decimal discounted = ProcessAmount(1000, amount => amount - 1000);
+
+
 
 
 foreach (string name in wealthyAccounts)
@@ -58,18 +205,18 @@ recent.PushOperation("Create Account");
 recent.PushOperation("Deposit");
 recent.PushOperation("Withdraw");
 
-while(recent.TryGetOperations(out string? operation))
+while (recent.TryGetOperations(out string? operation))
 {
     Console.WriteLine($"Recent Operation {operation}");
 }
 
 
 
-Queue <string> references = new();
+Queue<string> references = new();
 
-    references.Enqueue("TXT101");
-    references.Enqueue("TXT102");
-    references.Enqueue("TXT103");
+references.Enqueue("TXT101");
+references.Enqueue("TXT102");
+references.Enqueue("TXT103");
 
 //process  transactions untill the queue is empty.
 
@@ -101,7 +248,7 @@ pendingQueue.AddReference("TXT101");
 pendingQueue.AddReference("TXT102");
 pendingQueue.AddReference("TXT103");
 
-while(pendingQueue.TryGetNextReference(out string? reference))
+while (pendingQueue.TryGetNextReference(out string? reference))
 {
     Console.WriteLine("Processing next pending transaction.");
     Console.WriteLine($"Reference: {reference}");
@@ -148,9 +295,9 @@ customers.Remove("Amina");
 
 Console.WriteLine($"First customer {customers[0]}");
 
-foreach(var customer in customers)
+foreach (var customer in customers)
 {
-Console.WriteLine(customer);
+    Console.WriteLine(customer);
 
 }
 
@@ -159,7 +306,7 @@ Console.WriteLine($"Count after removing Amina {customers.Count}");
 
 customers.RemoveAt(1);
 
-foreach(var customer in customers)
+foreach (var customer in customers)
 {
     Console.WriteLine(customer);
 }
@@ -240,7 +387,7 @@ foreach (string item in incomingReferences)
 
 Dictionary<int, BankAccount> accounts = new()
 {
-    [1002] =  new BankAccount("Biodun", 5000m),
+    [1002] = new BankAccount("Biodun", 5000m),
     [1003] = new BankAccount("Chidi", 7000m),
     [1004] = new BankAccount("Efe", 6000m),
     [1005] = new BankAccount("Femi", 4000m),
@@ -254,9 +401,9 @@ Console.WriteLine("Enter account number: ");
 string? userInputAccount = Console.ReadLine();
 
 
-if(int.TryParse(userInputAccount, out int accountNumber))
+if (int.TryParse(userInputAccount, out int accountNumber))
 {
-   if (accounts.TryGetValue(accountNumber, out BankAccount? acc))
+    if (accounts.TryGetValue(accountNumber, out BankAccount? acc))
     {
         Console.WriteLine($"Account Holder: {acc.AccountHolder}");
         Console.WriteLine($"Account Balance: {acc.Balance}");
@@ -311,9 +458,9 @@ if (int.TryParse(newAccountInput, out int newAccountNumber))
             accounts.Add(newAccountNumber, new BankAccount(userName, OpeningBalance));
             Console.WriteLine("Account successfully created");
         }
-        
+
     }
-    
+
 
 }
 else
@@ -366,7 +513,7 @@ try
 }
 catch (ArgumentOutOfRangeException ex)
 {
-    
+
     Console.WriteLine($"Withdrawal Failed: {ex.Message}");
 }
 
@@ -399,7 +546,7 @@ Console.WriteLine($"Balance: {account.Balance}");
 Console.WriteLine($"Transaction count: {account.History.GetTransactions().Count}");
 
 
-foreach(Transaction transaction in account.History.GetTransactions())
+foreach (Transaction transaction in account.History.GetTransactions())
 {
     Console.WriteLine($"Transaction Type is {transaction.Type}, Amount is {transaction.Amount} and the Date is {transaction.CreatedAt}");
 }
@@ -408,7 +555,7 @@ Console.WriteLine($"Opening Balance: {account.Balance}");
 
 //Transaction Object Creation
 
-Transaction depositTransaction = new Transaction("Deposit", 500m);
+Transaction depositTransaction = new Transaction(TransactionType.Deposit, 500m);
 Console.WriteLine($"Transaction Created: {depositTransaction.Type} of amount {depositTransaction.Amount} at {depositTransaction.CreatedAt}");
 
 
@@ -419,8 +566,8 @@ try
 }
 catch (ArgumentOutOfRangeException ex)
 {
-    
-   Console.WriteLine($"Desposit Failed: {ex.Message}");
+
+    Console.WriteLine($"Desposit Failed: {ex.Message}");
 }
 finally
 {

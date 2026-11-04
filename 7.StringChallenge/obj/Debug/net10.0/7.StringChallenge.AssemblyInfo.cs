@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("7.StringChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39f10cfa731bb8058d85a18f86c59608a051f21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6d9896e196fd7034bc6b8129e8f85f1ec590b1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("7.StringChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("7.StringChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
