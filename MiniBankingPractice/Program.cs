@@ -1,5 +1,6 @@
 ﻿
 using MiniBankingPractice.Models;
+using MiniBankingPractice.DTOs;
 
 //BankAccount Object Creation
 BankAccount account = new("Gracey", 100000m)
@@ -10,6 +11,23 @@ BankAccount account = new("Gracey", 100000m)
 Console.WriteLine($"Account Display Name: {account.GetAccountDisplayName()}");
 Console.WriteLine($"Opening Balance {account.Balance:N2}");
 Console.WriteLine($"\nProcessing withdrawals...\n");
+
+var request1 = new DepositRequest(
+  "0198329230",
+    5000m,
+   "Monthly savings"
+);
+
+var request2 = new DepositRequest(
+  "0198329230",
+    5000m,
+   "Monthly bonus"
+);
+
+Console.WriteLine(request1 == request2);
+
+var updateRequest = request1 with { Amount = 6000m };
+
 
 // try
 // {
