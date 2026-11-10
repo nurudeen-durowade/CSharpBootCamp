@@ -1,5 +1,6 @@
 ﻿
 using MiniBankingPractice.Models;
+using MiniBankingPractice.Extensions;
 using MiniBankingPractice.DTOs;
 
 //BankAccount Object Creation
@@ -7,6 +8,26 @@ BankAccount account = new("Gracey", 100000m)
 {
     AccountNickname = "Emergency Fund"
 };
+
+
+var deposits = Transaction.GetDeposit(account.History.GetTransactions());
+
+
+foreach (var depo in deposits)
+{
+    Console.WriteLine($"Deposit: {depo.Type} of {depo.Amount:N2} on {depo.CreatedAt}");
+}
+
+
+Console.WriteLine($"Account Summary: {Transaction.GetAccountSummary(account)}");
+
+bool hasFunds = account.HasSufficientBalance(5000m);
+
+Console.WriteLine(account.IsHighValueAccount());
+
+Console.WriteLine(account.GetTotalTransactions());
+
+Console.WriteLine(account.GetFormattedBalance());
 
 Console.WriteLine($"Account Display Name: {account.GetAccountDisplayName()}");
 Console.WriteLine($"Opening Balance {account.Balance:N2}");
@@ -29,30 +50,32 @@ Console.WriteLine(request1 == request2);
 var updateRequest = request1 with { Amount = 6000m };
 
 
-// try
-// {
-//     account.Withdraw(30000m);
-//     account.Withdraw(90000m);
+try
+{
+    account.Withdraw(30000m);
+    account.Withdraw(90000m);
 
-//     account.History.GetTransactions();
-//     Console.WriteLine("Withdraw successful!");
-// }
-// catch (ArgumentOutOfRangeException ex)
-// {
+    
 
-//     Console.WriteLine($"Withdrawal failed {ex.Message}");
-// }
-// finally
-// {
-//     IReadOnlyList<Transaction> transactionsCompleted = account.History.GetTransactions();
-//     foreach (var transaction in transactionsCompleted)
-//     {
-//           Console.WriteLine($"Transaction: {transaction.Amount} on {transaction.CreatedAt}");
-//     }
-//     Console.WriteLine($"Withdrawal processing finished, total Transactions {transactionsCompleted.Count}");
-//     Console.WriteLine($"Current Balance {account.Balance}");
+    account.History.GetTransactions();
+    Console.WriteLine("Withdraw successful!");
+}
+catch (ArgumentOutOfRangeException ex)
+{
 
-// }
+    Console.WriteLine($"Withdrawal failed {ex.Message}");
+}
+finally
+{
+    IReadOnlyList<Transaction> transactionsCompleted = account.History.GetTransactions();
+    foreach (var transaction in transactionsCompleted)
+    {
+          Console.WriteLine($"Transaction: {transaction.Amount} on {transaction.CreatedAt}");
+    }
+    Console.WriteLine($"Withdrawal processing finished, total Transactions {transactionsCompleted.Count}");
+    Console.WriteLine($"Current Balance {account.Balance}");
+
+}
 
 
 

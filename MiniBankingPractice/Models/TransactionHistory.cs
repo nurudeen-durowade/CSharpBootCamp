@@ -4,7 +4,7 @@ namespace MiniBankingPractice.Models;
 
 public class TransactionHistory
 {
-    private List<Transaction> _transactions = [];
+    private readonly List<Transaction> _transactions = [];
 
 public void AddTransaction(Transaction transaction)
 {

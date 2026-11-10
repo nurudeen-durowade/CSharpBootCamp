@@ -13,6 +13,8 @@ namespace MiniBankingPractice.Models
         public string? AccountNickname { get; set; }
         public TransactionHistory History {get;} = new TransactionHistory();
 
+        public Transaction? Transaction { get; private set; } = new Transaction(TransactionType.Deposit, 100m);
+
         public BankAccount(string accountHolder, decimal initialBalance)
         {
             if (string.IsNullOrWhiteSpace(accountHolder))
@@ -31,6 +33,8 @@ namespace MiniBankingPractice.Models
            return AccountHolder.Trim();
         }
 
+
+
         public void Deposit(decimal amount)
         {
             if (amount <= 0)
@@ -39,7 +43,8 @@ namespace MiniBankingPractice.Models
             }
 
             Balance += amount;
-            History.AddTransaction(new Transaction(TransactionType.Deposit,amount));
+            Transaction = new Transaction(TransactionType.Deposit,amount);
+            History.AddTransaction(Transaction);
 
             OnDeposit?.Invoke(this, new DepositEventArgs(amount));
         }
@@ -55,7 +60,8 @@ namespace MiniBankingPractice.Models
                 throw new InsufficientFundsException(amount, Balance);
             }
             Balance -= amount;
-            History.AddTransaction(new Transaction( TransactionType.Withdrawal, amount));
+            Transaction = new Transaction( TransactionType.Withdrawal, amount);
+            History.AddTransaction(Transaction);
         }
     }
 }
