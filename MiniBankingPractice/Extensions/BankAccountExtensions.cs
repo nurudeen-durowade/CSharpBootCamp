@@ -30,4 +30,20 @@ public static class BankAccountExtensions
     {
         return account.History.GetTransactions().Count;
     }
+
+    public static IEnumerable<Transaction> GetLargeTransactions(this BankAccount account, decimal minimalAmount)
+    {
+        ArgumentNullException.ThrowIfNull(account);
+        //IList<Transaction> tran =  [];
+
+        foreach (var transaction in account.History.GetTransactions())
+        {
+            if (transaction.Amount >= minimalAmount)
+            {
+                //tran.Add(transaction);
+                yield return transaction;
+            }
+        }
+        //return tran;
+    }
 }

@@ -12,7 +12,7 @@ public class Transaction
 
     public Transaction(TransactionType type, decimal amount)
     {
-        if (!Enum.IsDefined(typeof(TransactionType), type))
+        if (!Enum.IsDefined(type))
         {
             throw new ArgumentException("Invalid transaction type", nameof(type));
         }

@@ -18,6 +18,11 @@ foreach (var depo in deposits)
     Console.WriteLine($"Deposit: {depo.Type} of {depo.Amount:N2} on {depo.CreatedAt}");
 }
 
+foreach (var transaction in account.GetLargeTransactions(10000m))
+{
+    Console.WriteLine(
+        $"{transaction.Type}: {transaction.Amount}");
+}
 
 Console.WriteLine($"Account Summary: {Transaction.GetAccountSummary(account)}");
 
