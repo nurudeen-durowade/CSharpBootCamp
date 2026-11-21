@@ -13,6 +13,12 @@ BankAccount account = new("Gracey", 100000m)
 var deposits = Transaction.GetDeposit(account.History.GetTransactions());
 
 
+var export = new TransactionExporter();
+
+export.Export(account.History.GetTransactions(), "./Services/TransactionList.xlsx");
+Console.WriteLine("Transactions exported to Excel successfully.");
+
+
 foreach (var depo in deposits)
 {
     Console.WriteLine($"Deposit: {depo.Type} of {depo.Amount:N2} on {depo.CreatedAt}");

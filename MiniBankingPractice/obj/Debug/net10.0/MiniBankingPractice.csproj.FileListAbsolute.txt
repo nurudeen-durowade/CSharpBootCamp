@@ -13,3 +13,13 @@
 /Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.pdb
 /Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.genruntimeconfig.cache
 /Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/ref/MiniBankingPractice.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/ClosedXML.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/ClosedXML.Parser.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/DocumentFormat.OpenXml.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/DocumentFormat.OpenXml.Framework.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/ExcelNumberFormat.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/RBush.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/SixLabors.Fonts.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/bin/Debug/net10.0/System.IO.Packaging.dll
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBankingPractice.csproj.AssemblyReference.cache
+/Users/admin/CSharpBootCamp/MiniBankingPractice/obj/Debug/net10.0/MiniBank.82CC8A94.Up2Date
